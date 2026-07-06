@@ -1,0 +1,13 @@
+<p align="center">
+  <img src="./public/3dev.png" alt="Logo 3Dev" width="280" />
+</p>
+
+# Estudo open scad
+
+Esse arquivo serve para anotar e estidar sobre o OpenScad e o Bosl2, com o intuito de criar modelos 3d para impressão
+
+## Documentação
+
+- [Sólidos geométricos](./docs/basic/solids.md)
+
+- [Comandos e variaveis](./docs/basic/commands.md)

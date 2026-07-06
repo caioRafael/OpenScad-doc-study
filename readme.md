@@ -11,3 +11,5 @@ Esse arquivo serve para anotar e estudar sobre o OpenScad e o Bosl2, com o intui
 - [Sólidos geométricos](./docs/basic/solids.md)
 
 - [Comandos e variaveis](./docs/basic/commands.md)
+
+- [Operações geométricas](./docs/basic/geometric-operetions.md)

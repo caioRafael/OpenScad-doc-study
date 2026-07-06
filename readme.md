@@ -4,7 +4,7 @@
 
 # Estudo open scad
 
-Esse arquivo serve para anotar e estidar sobre o OpenScad e o Bosl2, com o intuito de criar modelos 3d para impressão
+Esse arquivo serve para anotar e estudar sobre o OpenScad e o Bosl2, com o intuito de criar modelos 3d para impressão
 
 ## Documentação
 

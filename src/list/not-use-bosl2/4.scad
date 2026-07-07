@@ -15,6 +15,9 @@ text_3 = "PAIS";
 
 text_size = 12;
 
+// espessura da parede/borda do carimbo (molde)
+border_wall = 1;
+
 module base_border(){
     $fn = 100;
     circle(d = diameter_border);
@@ -42,7 +45,7 @@ module base(){
 module border(border_height = 5){
     linear_extrude(height = border_height)
     difference(){
-        offset(r = 1){
+        offset(r = border_wall){
             base();
         }
         base();
@@ -57,12 +60,15 @@ module molde(molde_height = 1){
 
     linear_extrude(height = molde_height + 5)
         translate([0, 15, 0])
+        mirror([1, 0, 0])
         text(text_1, font = "Nunito", size = text_size - 1, halign = "center", valign = "center");
     linear_extrude(height = molde_height + 5)
         translate([0, 0, 0])
+        mirror([1, 0, 0])
         text(text_2, font = "Nunito", size = text_size - 2, halign = "center", valign = "center");
     linear_extrude(height = molde_height + 5)
         translate([0, -15, 0])
+        mirror([1, 0, 0])
         difference(){
             offset(r = 1)
                 text(text_3, font = "Nunito", size = text_size + 2, halign = "center", valign = "center");
@@ -77,17 +83,30 @@ cutter_gap = 0.5;
 cutter_wall = 1;
 
 module cortador(){
-    linear_extrude(height = 60)
+    linear_extrude(height = 50)
     difference(){
-        offset(r = 1 + cutter_gap + cutter_wall){
+        offset(r = border_wall + cutter_gap + cutter_wall){
             base();
         }
-        offset(r = 1 + cutter_gap){
+        offset(r = border_wall + cutter_gap){
             base();
         }
     }
 }
 
-molde(molde_height = 50);
+linear_extrude(height = 50, scale = 0.1)
+// offset(r = 1)
+base();
+
+translate([0, 0, 50])
+rotate([0, 180, 0])
+linear_extrude(height = 50, scale = 0.1)
+// offset(r = 1)
+base();
+
+translate([0, 0, 50])
+molde(molde_height = 1);
+
 translate([diameter + 2 * diameter_border + 2 * cutter_gap + 2 * cutter_wall, 0, 0])
+// color("red")
 cortador();

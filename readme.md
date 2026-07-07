@@ -18,6 +18,8 @@ Esse arquivo serve para anotar e estudar sobre o OpenScad e o Bosl2, com o intui
 
 - [Modelagem 2d](./docs/basic/2d.md)
 
+- [Fontes e fontes externas](./docs/basic/fonts.md)
+
 - [Poluhedron](./docs/basic/polyhedron.md)
 
 - [Surface](./docs/basic/surface.md)

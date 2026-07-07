@@ -28,6 +28,16 @@ Esse arquivo serve para anotar e estudar sobre o OpenScad e o Bosl2, com o intui
 
 ---
 
+## BOSL2
+
+O BOSL2 é uma biblioteca open source do OpenScad que trás fácilidades para a modelagem. Com ela temos novas formas, 2D e 3D, e novas funções para ajudar a modelar um objeto em 3D.
+
+- [Formas 2D](./docs/bosl2/2d/2d-shapers.md)
+
+- [Formas 3D](./docs/bosl2/3d/3d-shapers.md)
+
+---
+
 ## Para práticar
 
 para praticar e aprimorar as habilidades fica uma lista de modelos para criar:

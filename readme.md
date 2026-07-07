@@ -24,8 +24,6 @@ Esse arquivo serve para anotar e estudar sobre o OpenScad e o Bosl2, com o intui
 
 - [Técnicas de modelagem](./docs/modeling-techniques.md)
 
-- [Filetes](./docs/fillets.md)
-
 ---
 
 ## Para práticar

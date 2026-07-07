@@ -25,3 +25,20 @@ Esse arquivo serve para anotar e estudar sobre o OpenScad e o Bosl2, com o intui
 - [Técnicas de modelagem](./docs/modeling-techniques.md)
 
 - [Filetes](./docs/fillets.md)
+
+---
+
+## Para práticar
+
+para praticar e aprimorar as habilidades fica uma lista de modelos para criar:
+
+1. Criar uma caixa paramétrica com tampa.
+2. Criar um organizador de gaveta.
+3. Criar um porta-lápis paramétrico.
+4. Criar um molde de brigadeiro (algo que você já começou).
+5. Criar um cortador de biscoito.
+6. Criar um suporte de celular.
+7. Criar um sistema de encaixe macho/fêmea.
+8. Criar uma dobradiça imprimível.
+9. Criar uma caixa com trava.
+10. Criar uma peça utilizando SVG em baixo relevo e alto relevo.
